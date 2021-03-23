@@ -8,8 +8,11 @@ def self_number(i):
 
     return total
 
+#boolean 10000개
+#[True] * 10000
 num_list = list(range(1, 10001))
 unself_nums = []
+
 for num in num_list:
     unself = self_number(num)
     if not unself in unself_nums:
