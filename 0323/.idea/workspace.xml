@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6441a5-2412-402a-a40b-acb083ed604c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../0210/algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0221/black_jack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0316/swea_#10966_물놀이를가자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0316/swea_#1953_탈주범검거.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0316/swea_#4012_요리사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../0322/백준_2447_재귀_별찍기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0213/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0213/algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/0215.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0215/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/0217.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9c6441a5-2412-402a-a40b-acb083ed604c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0324" />
   </component>
   <component name="RunManager" selected="Python.백준_7568_브루트포스">
     <configuration name="백준_2231_브루트포스" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -144,5 +120,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
