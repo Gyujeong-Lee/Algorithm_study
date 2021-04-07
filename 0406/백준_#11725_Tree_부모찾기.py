@@ -50,7 +50,7 @@ while len(Q) > 0:
             ans[i] = parent
             Q.append(i)
             check[i] = True
-
+print(tree)
 for i in range(2, N+1):
     print(ans[i])
 
