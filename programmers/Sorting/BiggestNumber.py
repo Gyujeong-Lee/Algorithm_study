@@ -1,10 +1,19 @@
+# dfs??
+# num
+def dfs(n):
+
+
+
+
 def solution(numbers):
     answer = ''
-    for num in numbers:
+    tmp_ans = ''
+    for num in numbers
+    
 
     return answer
 
 
-numbers = list(map(str, input().split()))
+numbers = list(map(int, input().split()))
 ans = solution(numbers)
 print(ans)
