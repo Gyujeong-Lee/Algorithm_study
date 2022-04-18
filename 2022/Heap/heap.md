@@ -1,14 +1,17 @@
 # heap
 
 > 참고 : https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
+>
+> 공식문서 : https://docs.python.org/ko/3/library/heapq.html#heapq.heappush
 
 
 
 ## 개념
 
 - 우선순위 큐 : 우선순위의 개념을 큐에 도입한 자료구조
-  - 데이터들이 우선순위를 가지고 있고 우선순위가 높은 데이터가 먼저 나간다.
-
+  
+- 데이터들이 우선순위를 가지고 있고 우선순위가 높은 데이터가 먼저 나간다.
+  
 - Heap : 완전이진트리의 일종으로 우선순위 큐를 위하여 만들어진 자료구조
 
 - Heap의 종류
