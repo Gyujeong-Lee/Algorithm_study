@@ -12,8 +12,6 @@ input_n = int(input())
 input_computers = []
 for _ in range(input_n):
     input_computers.append(list(map(int, input().split(','))))
-
-
 def solution(n, computers):
     answer = 0
     visited = [0 for _ in range(n)]
@@ -41,5 +39,7 @@ def solution(n, computers):
             result.append(tmp)
     answer = len(result)
     return answer
+
+
 
 print(solution(input_n, input_computers))
