@@ -15,3 +15,12 @@ if a == b:
 else:
     print('f')
 
+base = set([1, 2, 3])
+base2 = set([1, 2, 3, 4])
+result = base - base2
+print(base2 - base)
+print(base - base2)
+if result:
+    print('True')
+else:
+    print('False')
