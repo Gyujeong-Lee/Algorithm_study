@@ -11,7 +11,7 @@ import heapq
 
 #heap으로 변환
 heapq.heapify(scoville)
-
+print(scoville)
 while scoville[0] < K:
     if len(scoville) < 2:
         answer = -1

@@ -1,3 +1,4 @@
+from collections import deque
 input_n = int(input())
 input_edge = [[1, 2], [1, 3], [2, 4], [2, 5], [3, 5], [
       3, 6], [4, 8], [4, 9], [5, 9], [5, 10], [6, 10], [6, 11]]
@@ -6,21 +7,21 @@ def bfs(dict, s, k):
     dist_list = [0 for _ in range(k+1)]
     dist_list[s] = 1
     dist = 0
-    q = []
+    q = deque([])
     q.append([s, dist])
 
     while q:
-        tmp = q.pop(0)
+        tmp = q.popleft()
         cur_node, cur_dist = tmp[0], tmp[1]
         adj_nodes = dict[cur_node]
 
         for i in range(len(adj_nodes)):
             new_node = adj_nodes[i]
             if dist_list[new_node] == 0:
-                print(cur_node, new_node)
+                # print(cur_node, new_node)
                 dist_list[new_node] = cur_dist + 1
                 q.append([new_node, cur_dist+1])
-                print(dist_list)
+                # print(dist_list)
 
     return dist_list
 
@@ -40,7 +41,7 @@ def solution(n, edge):
             adj_list[n2] = [n1]
         else:
             adj_list[n2].append(n1)
-    print(adj_list)
+    # print(adj_list)
     result = bfs(adj_list, 1, n)
     print(result)
     max_dist = max(result)
